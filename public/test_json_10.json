@@ -1,0 +1,877 @@
+{
+    "default_view_options": {
+        "default_view": "numerical",
+        "default_numerical_view": "line",
+        "default_categorical_view": "doughnut",
+        "default_axes": {
+            "numerical_chart": {
+                "x": "datum",
+                "y": "ags"
+            },
+            "categorical_chart": "wahlraum_bezeichnung"
+        }
+    },
+    "labels": {
+        "all_labels": [
+            "datum",
+            "ags",
+            "bezirk_nr",
+            "bezirk_name",
+            "wahlraum_bezeichnung",
+            "wahlraum_adresse",
+            "wahlraum_barrierefrei",
+            "geo"
+        ],
+        "numerical_labels": [
+            "ags",
+            "bezirk_nr"
+        ],
+        "categorical_labels": [
+            "datum",
+            "bezirk_name",
+            "wahlraum_bezeichnung",
+            "wahlraum_adresse",
+            "wahlraum_barrierefrei",
+            "geo"
+        ],
+        "time_labels": [
+            "datum"
+        ]
+    },
+    "default_axis": {
+        "x": "datum",
+        "y": "ags"
+    },
+    "data": [
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 11,
+            "bezirk_name": "Bezirk 001.1 - Rheinfeld I",
+            "wahlraum_bezeichnung": "OGS Rheinfeld I",
+            "wahlraum_adresse": "Walhovener Str. 65 A, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0984132,6.8508398"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 12,
+            "bezirk_name": "Bezirk 001.2 - Rheinfeld I",
+            "wahlraum_bezeichnung": "OGS Rheinfeld II",
+            "wahlraum_adresse": "Walhovener Str. 65 A, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0984132,6.8508398"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 21,
+            "bezirk_name": "Bezirk 002.1 - Rheinfeld II, Mitte I",
+            "wahlraum_bezeichnung": "Regenbogenschule",
+            "wahlraum_adresse": "In der Au 5, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.096644,6.8488565"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 22,
+            "bezirk_name": "Bezirk 002.2 - Rheinfeld II, Mitte I",
+            "wahlraum_bezeichnung": "Theodor-Angerhausen-Schule, St\u00e4dtische Grundschule Dormagen-Mitte",
+            "wahlraum_adresse": "Langemarkstra\u00dfe 30, 41539 Dormagen",
+            "wahlraum_barrierefrei": null,
+            "geo": "51.0935291,6.8352169"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 31,
+            "bezirk_name": "Bezirk 003.1 - Mitte II",
+            "wahlraum_bezeichnung": "Kulturhaus I, Raum 0.01, EG",
+            "wahlraum_adresse": "Langemarkstra\u00dfe 1, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0924063,6.8372769"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 32,
+            "bezirk_name": "Bezirk 003.2 - Mitte II",
+            "wahlraum_bezeichnung": "Kulturhaus II, Raum 0.02, EG",
+            "wahlraum_adresse": "Langemarkstra\u00dfe 1, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0924063,6.8372769"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 41,
+            "bezirk_name": "Bezirk 004.1 - Mitte III",
+            "wahlraum_bezeichnung": "Sekundarschule Dormagen I",
+            "wahlraum_adresse": "Max-Reger-Weg 3, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.09837419999999,6.824924999999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 42,
+            "bezirk_name": "Bezirk 004.2 - Mitte III",
+            "wahlraum_bezeichnung": "Sekundarschule Dormagen II",
+            "wahlraum_adresse": "Max-Reger-Weg 3, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.09837419999999,6.824924999999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 51,
+            "bezirk_name": "Bezirk 005.1 - Mitte IV",
+            "wahlraum_bezeichnung": "Ev. Gemeindeamt Dormagen",
+            "wahlraum_adresse": "Ostpreu\u00dfenallee 1, 41539 Dormagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.0962103,6.8328304"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 52,
+            "bezirk_name": "Bezirk 005.2 - Mitte IV",
+            "wahlraum_bezeichnung": "Ev. Kita \"Abenteuerland\"",
+            "wahlraum_adresse": "Schumannstra\u00dfe 1A, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1014873,6.827944899999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 61,
+            "bezirk_name": "Bezirk 006.1 - Horrem I",
+            "wahlraum_bezeichnung": "Erich-K\u00e4stner-Schule I",
+            "wahlraum_adresse": "Konrad-Adenauer-Stra\u00dfe 2, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.10075,6.820640099999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 62,
+            "bezirk_name": "Bezirk 006.2 - Horrem I",
+            "wahlraum_bezeichnung": "Erich-K\u00e4stner-Schule II",
+            "wahlraum_adresse": "Konrad-Adenauer-Stra\u00dfe 2, 41539 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.10075,6.820640099999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 71,
+            "bezirk_name": "Bezirk 007.1 - Horrem II",
+            "wahlraum_bezeichnung": "Kita \"Rappelkiste\"",
+            "wahlraum_adresse": "Fichtenweg 14, 41540 Dormagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.1031049,6.807098000000001"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 72,
+            "bezirk_name": "Bezirk 007.2 - Horrem II",
+            "wahlraum_bezeichnung": "Christoph-Rensing-Schule I",
+            "wahlraum_adresse": "Knechtstedener Stra\u00dfe 49, 41540 Dormagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.0988303,6.8072917"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 81,
+            "bezirk_name": "Bezirk 008.1 - Horrem III",
+            "wahlraum_bezeichnung": "Christoph-Rensing-Schule II",
+            "wahlraum_adresse": "Knechtstedener Stra\u00dfe 49, 41540 Dormagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.0988303,6.8072917"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 91,
+            "bezirk_name": "Bezirk 009.1 - Delhoven I",
+            "wahlraum_bezeichnung": "Tannenbusch-Schule I",
+            "wahlraum_adresse": "Josef-Steins-Stra\u00dfe 41, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0768935,6.7802842"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 92,
+            "bezirk_name": "Bezirk 009.2 - Delhoven I",
+            "wahlraum_bezeichnung": "Tannenbusch-Schule II",
+            "wahlraum_adresse": "Josef-Steins-Stra\u00dfe 41, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0768935,6.7802842"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 101,
+            "bezirk_name": "Bezirk 010.1 - Delhoven II, Hackenbroich I",
+            "wahlraum_bezeichnung": "Tannenbusch-Schule III",
+            "wahlraum_adresse": "Josef-Steins-Stra\u00dfe 41, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0768935,6.7802842"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 102,
+            "bezirk_name": "Bezirk 010.2 - Delhoven II, Hackenbroich I",
+            "wahlraum_bezeichnung": "Schule Burg Hackenbroich III",
+            "wahlraum_adresse": "Salm-Reifferscheidt-Allee 6, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.06370039999999,6.8099858"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 111,
+            "bezirk_name": "Bezirk 011.1 - Hackenbroich II",
+            "wahlraum_bezeichnung": "Schule am Chorbusch",
+            "wahlraum_adresse": "Hackhauser Stra\u00dfe 65, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.0588809,6.8156222"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 112,
+            "bezirk_name": "Bezirk 011.2 - Hackenbroich II",
+            "wahlraum_bezeichnung": "Schule Burg Hackenbroich I",
+            "wahlraum_adresse": "Salm-Reifferscheidt-Allee 6, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.06370039999999,6.8099858"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 131,
+            "bezirk_name": "Bezirk 013.1 - Hackenbroich III",
+            "wahlraum_bezeichnung": "Schule Burg Hackenbroich II",
+            "wahlraum_adresse": "Salm-Reifferscheidt-Allee 6, 41540 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.06370039999999,6.8099858"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 141,
+            "bezirk_name": "Bezirk 014.1 - Straberg",
+            "wahlraum_bezeichnung": "Tannenbusch-Schule Straberg I",
+            "wahlraum_adresse": "Kronenp\u00fctzchen 22, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.09469420000001,6.7580452"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 142,
+            "bezirk_name": "Bezirk 014.2 - Straberg",
+            "wahlraum_bezeichnung": "Tannenbusch-Schule Straberg II",
+            "wahlraum_adresse": "Kronenp\u00fctzchen 22, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.09469420000001,6.7580452"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 151,
+            "bezirk_name": "Bezirk 015.1 - Gohr",
+            "wahlraum_bezeichnung": "Friedensschule Gohr",
+            "wahlraum_adresse": "Bergheimer Stra\u00dfe 16, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1021296,6.717466399999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 152,
+            "bezirk_name": "Bezirk 015.2 - Gohr",
+            "wahlraum_bezeichnung": "Salvator-Schule III",
+            "wahlraum_adresse": "An der Weyhe 7, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1131232,6.7576637999999996"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 161,
+            "bezirk_name": "Bezirk 016.1 - Nievenheim I",
+            "wahlraum_bezeichnung": "Salvator-Schule I",
+            "wahlraum_adresse": "An der Weyhe 7, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1131232,6.7576637999999996"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 162,
+            "bezirk_name": "Bezirk 016.2 - Nievenheim I",
+            "wahlraum_bezeichnung": "Salvator-Schule II",
+            "wahlraum_adresse": "An der Weyhe 7, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1131232,6.7576637999999996"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 171,
+            "bezirk_name": "Bezirk 017.1 - Nievenheim II",
+            "wahlraum_bezeichnung": "Friedensschule Nievenheim",
+            "wahlraum_adresse": "Neusser Stra\u00dfe 13, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.11473170000001,6.7702048999999995"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 172,
+            "bezirk_name": "Bezirk 017.2 - Nievenheim II",
+            "wahlraum_bezeichnung": "OGS Friedensschule",
+            "wahlraum_adresse": "Poststra\u00dfe 13, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1151354,6.7703177"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 181,
+            "bezirk_name": "Bezirk 018.1 - Nievenheim III",
+            "wahlraum_bezeichnung": "Bertha-v.-Suttner-Gesamtsch. I",
+            "wahlraum_adresse": "Marie-Schlei-Stra\u00dfe 6, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1192788,6.779987900000001"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 182,
+            "bezirk_name": "Bezirk 018.2 - Nievenheim III",
+            "wahlraum_bezeichnung": "Bertha-v.-Suttner-Gesamtsch.II",
+            "wahlraum_adresse": "Marie-Schlei-Stra\u00dfe 6, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1192788,6.779987900000001"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 191,
+            "bezirk_name": "Bezirk 019.1 - Delrath",
+            "wahlraum_bezeichnung": "Henri-Dunant-Schule I",
+            "wahlraum_adresse": "Henri-Dunant-Stra\u00dfe 2, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.12762000000001,6.78168"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 192,
+            "bezirk_name": "Bezirk 019.2 - Delrath",
+            "wahlraum_bezeichnung": "Kita \"Villa Bunte Wolke\"",
+            "wahlraum_adresse": "Gabrielstra\u00dfe 6, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1280897,6.7850217"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 201,
+            "bezirk_name": "Bezirk 020.1 - St\u00fcrzelberg I, St.Peter",
+            "wahlraum_bezeichnung": "Integrat. Kindertagesst\u00e4tte",
+            "wahlraum_adresse": "Ro\u00dflenbroichstra\u00dfe 49, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.136281,6.8116182"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 202,
+            "bezirk_name": "Bezirk 020.2 - St\u00fcrzelberg I, St.Peter",
+            "wahlraum_bezeichnung": "Henri-Dunant-Schule II",
+            "wahlraum_adresse": "Henri-Dunant-Stra\u00dfe 2, 41542 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.12762000000001,6.78168"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 211,
+            "bezirk_name": "Bezirk 021.1 - St\u00fcrzelberg II",
+            "wahlraum_bezeichnung": "St.-Nikolaus-Schule",
+            "wahlraum_adresse": "Schulstra\u00dfe 59, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1391915,6.8200774"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 221,
+            "bezirk_name": "Bezirk 022.1 - Zons I",
+            "wahlraum_bezeichnung": "Evang. Kita \"Arche Noah\"",
+            "wahlraum_adresse": "Hebbelstra\u00dfe 3, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.12194400000001,6.843920499999999"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 222,
+            "bezirk_name": "Bezirk 022.2 - Zons I",
+            "wahlraum_bezeichnung": "Fried.-v.-Saarwerden-Schule I",
+            "wahlraum_adresse": "Deichstra\u00dfe 65, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1239267,6.8464737"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 231,
+            "bezirk_name": "Bezirk 023.1 - Zons II",
+            "wahlraum_bezeichnung": "Pfarrscheune Zons, Seniorenraum",
+            "wahlraum_adresse": "Hubertusstra\u00dfe 1A, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1207313,6.848865"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 232,
+            "bezirk_name": "Bezirk 023.2 - Zons II",
+            "wahlraum_bezeichnung": "Fried.-v.-Saarwerden-SchuleII",
+            "wahlraum_adresse": "Deichstra\u00dfe 65, 41541 Dormagen",
+            "wahlraum_barrierefrei": "ja",
+            "geo": "51.1239267,6.8464737"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 19,
+            "bezirk_name": "0019 Briefwahl 1.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 29,
+            "bezirk_name": "0029 Briefwahl 2.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 39,
+            "bezirk_name": "0039 Briefwahl 3.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 49,
+            "bezirk_name": "0049 Briefwahl 4.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 59,
+            "bezirk_name": "0059 Briefwahl 5.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 69,
+            "bezirk_name": "0069 Briefwahl 6.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 79,
+            "bezirk_name": "0079 Briefwahl 7.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 89,
+            "bezirk_name": "0089 Briefwahl 8.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 99,
+            "bezirk_name": "0099 Briefwahl 9.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 109,
+            "bezirk_name": "0109 Briefwahl 10.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 119,
+            "bezirk_name": "0119 Briefwahl 11.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 139,
+            "bezirk_name": "0139 Briefwahl 13.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 149,
+            "bezirk_name": "0149 Briefwahl 14.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 159,
+            "bezirk_name": "0159 Briefwahl 15.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 169,
+            "bezirk_name": "0169 Briefwahl 16.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 179,
+            "bezirk_name": "0179 Briefwahl 17.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 189,
+            "bezirk_name": "0189 Briefwahl 18.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 199,
+            "bezirk_name": "0199 Briefwahl 19.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 209,
+            "bezirk_name": "0209 Briefwahl 20.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 219,
+            "bezirk_name": "0219 Briefwahl 21.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 229,
+            "bezirk_name": "0229 Briefwahl 22.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        },
+        {
+            "datum": "2021-09-26",
+            "ags": 5162004,
+            "bezirk_nr": 239,
+            "bezirk_name": "0239 Briefwahl 23.9",
+            "wahlraum_bezeichnung": "Neues Rathaus",
+            "wahlraum_adresse": "Paul-Wierich-Platz 2, 41539 Domagen",
+            "wahlraum_barrierefrei": "nein",
+            "geo": "51.09325699999999,6.841316"
+        }
+    ],
+    "categorized": [
+        {
+            "column": "datum",
+            "categories": {
+                "2021-09-26": 63
+            },
+            "view_chart": "pie"
+        },
+        {
+            "column": "bezirk_name",
+            "categories": {
+                "Bezirk 001.1 - Rheinfeld I": 1,
+                "0079 Briefwahl 7.9": 1,
+                "Bezirk 020.1 - St\u00fcrzelberg I, St.Peter": 1,
+                "Bezirk 020.2 - St\u00fcrzelberg I, St.Peter": 1,
+                "Bezirk 021.1 - St\u00fcrzelberg II": 1,
+                "Bezirk 022.1 - Zons I": 1,
+                "Bezirk 022.2 - Zons I": 1,
+                "Bezirk 023.1 - Zons II": 1,
+                "Bezirk 023.2 - Zons II": 1,
+                "0019 Briefwahl 1.9": 1,
+                "0029 Briefwahl 2.9": 1,
+                "0039 Briefwahl 3.9": 1,
+                "0049 Briefwahl 4.9": 1,
+                "0059 Briefwahl 5.9": 1,
+                "0069 Briefwahl 6.9": 1,
+                "0089 Briefwahl 8.9": 1,
+                "Bezirk 019.1 - Delrath": 1,
+                "0099 Briefwahl 9.9": 1,
+                "0109 Briefwahl 10.9": 1,
+                "0119 Briefwahl 11.9": 1,
+                "0139 Briefwahl 13.9": 1,
+                "0149 Briefwahl 14.9": 1,
+                "0159 Briefwahl 15.9": 1,
+                "0169 Briefwahl 16.9": 1,
+                "0179 Briefwahl 17.9": 1,
+                "0189 Briefwahl 18.9": 1,
+                "0199 Briefwahl 19.9": 1,
+                "0209 Briefwahl 20.9": 1,
+                "0219 Briefwahl 21.9": 1,
+                "0229 Briefwahl 22.9": 1,
+                "Bezirk 019.2 - Delrath": 1,
+                "Bezirk 018.2 - Nievenheim III": 1,
+                "Bezirk 001.2 - Rheinfeld I": 1,
+                "Bezirk 009.1 - Delhoven I": 1,
+                "Bezirk 002.1 - Rheinfeld II, Mitte I": 1,
+                "Bezirk 002.2 - Rheinfeld II, Mitte I": 1,
+                "Bezirk 003.1 - Mitte II": 1,
+                "Bezirk 003.2 - Mitte II": 1,
+                "Bezirk 004.1 - Mitte III": 1,
+                "Bezirk 004.2 - Mitte III": 1,
+                "Bezirk 005.1 - Mitte IV": 1,
+                "Bezirk 005.2 - Mitte IV": 1,
+                "Bezirk 006.1 - Horrem I": 1,
+                "Bezirk 006.2 - Horrem I": 1,
+                "Bezirk 007.1 - Horrem II": 1,
+                "Bezirk 007.2 - Horrem II": 1,
+                "Bezirk 008.1 - Horrem III": 1,
+                "Bezirk 009.2 - Delhoven I": 1,
+                "Bezirk 018.1 - Nievenheim III": 1,
+                "Bezirk 010.1 - Delhoven II, Hackenbroich I": 1,
+                "Bezirk 010.2 - Delhoven II, Hackenbroich I": 1,
+                "Bezirk 011.1 - Hackenbroich II": 1,
+                "Bezirk 011.2 - Hackenbroich II": 1,
+                "Bezirk 013.1 - Hackenbroich III": 1,
+                "Bezirk 014.1 - Straberg": 1,
+                "Bezirk 014.2 - Straberg": 1,
+                "Bezirk 015.1 - Gohr": 1,
+                "Bezirk 015.2 - Gohr": 1,
+                "Bezirk 016.1 - Nievenheim I": 1,
+                "Bezirk 016.2 - Nievenheim I": 1,
+                "Bezirk 017.1 - Nievenheim II": 1,
+                "Bezirk 017.2 - Nievenheim II": 1,
+                "0239 Briefwahl 23.9": 1
+            },
+            "view_chart": "bar"
+        },
+        {
+            "column": "wahlraum_bezeichnung",
+            "categories": {
+                "Neues Rathaus": 22,
+                "Bertha-v.-Suttner-Gesamtsch.II": 1,
+                "Tannenbusch-Schule Straberg II": 1,
+                "Friedensschule Gohr": 1,
+                "Salvator-Schule III": 1,
+                "Salvator-Schule I": 1,
+                "Salvator-Schule II": 1,
+                "Friedensschule Nievenheim": 1,
+                "OGS Friedensschule": 1,
+                "Bertha-v.-Suttner-Gesamtsch. I": 1,
+                "Henri-Dunant-Schule I": 1,
+                "OGS Rheinfeld II": 1,
+                "Kita \"Villa Bunte Wolke\"": 1,
+                "Integrat. Kindertagesst\u00e4tte": 1,
+                "Henri-Dunant-Schule II": 1,
+                "St.-Nikolaus-Schule": 1,
+                "Evang. Kita \"Arche Noah\"": 1,
+                "Fried.-v.-Saarwerden-Schule I": 1,
+                "Pfarrscheune Zons, Seniorenraum": 1,
+                "Fried.-v.-Saarwerden-SchuleII": 1,
+                "Tannenbusch-Schule Straberg I": 1,
+                "OGS Rheinfeld I": 1,
+                "Schule Burg Hackenbroich I": 1,
+                "Schule am Chorbusch": 1,
+                "Regenbogenschule": 1,
+                "Theodor-Angerhausen-Schule, St\u00e4dtische Grundschule Dormagen-Mitte": 1,
+                "Kulturhaus I, Raum 0.01, EG": 1,
+                "Kulturhaus II, Raum 0.02, EG": 1,
+                "Sekundarschule Dormagen I": 1,
+                "Sekundarschule Dormagen II": 1,
+                "Ev. Gemeindeamt Dormagen": 1,
+                "Ev. Kita \"Abenteuerland\"": 1,
+                "Erich-K\u00e4stner-Schule I": 1,
+                "Erich-K\u00e4stner-Schule II": 1,
+                "Kita \"Rappelkiste\"": 1,
+                "Christoph-Rensing-Schule I": 1,
+                "Christoph-Rensing-Schule II": 1,
+                "Tannenbusch-Schule I": 1,
+                "Tannenbusch-Schule II": 1,
+                "Tannenbusch-Schule III": 1,
+                "Schule Burg Hackenbroich III": 1,
+                "Schule Burg Hackenbroich II": 1
+            },
+            "view_chart": "bar"
+        },
+        {
+            "column": "wahlraum_adresse",
+            "categories": {
+                "Paul-Wierich-Platz 2, 41539 Domagen": 22,
+                "An der Weyhe 7, 41542 Dormagen": 3,
+                "Salm-Reifferscheidt-Allee 6, 41540 Dormagen": 3,
+                "Josef-Steins-Stra\u00dfe 41, 41540 Dormagen": 3,
+                "Knechtstedener Stra\u00dfe 49, 41540 Dormagen": 2,
+                "Deichstra\u00dfe 65, 41541 Dormagen": 2,
+                "Henri-Dunant-Stra\u00dfe 2, 41542 Dormagen": 2,
+                "Marie-Schlei-Stra\u00dfe 6, 41542 Dormagen": 2,
+                "Walhovener Str. 65 A, 41539 Dormagen": 2,
+                "Max-Reger-Weg 3, 41539 Dormagen": 2,
+                "Konrad-Adenauer-Stra\u00dfe 2, 41539 Dormagen": 2,
+                "Langemarkstra\u00dfe 1, 41539 Dormagen": 2,
+                "Kronenp\u00fctzchen 22, 41542 Dormagen": 2,
+                "In der Au 5, 41539 Dormagen": 1,
+                "Bergheimer Stra\u00dfe 16, 41542 Dormagen": 1,
+                "Ostpreu\u00dfenallee 1, 41539 Dormagen": 1,
+                "Neusser Stra\u00dfe 13, 41542 Dormagen": 1,
+                "Poststra\u00dfe 13, 41542 Dormagen": 1,
+                "Hackhauser Stra\u00dfe 65, 41540 Dormagen": 1,
+                "Schumannstra\u00dfe 1A, 41539 Dormagen": 1,
+                "Gabrielstra\u00dfe 6, 41542 Dormagen": 1,
+                "Ro\u00dflenbroichstra\u00dfe 49, 41541 Dormagen": 1,
+                "Schulstra\u00dfe 59, 41541 Dormagen": 1,
+                "Hebbelstra\u00dfe 3, 41541 Dormagen": 1,
+                "Langemarkstra\u00dfe 30, 41539 Dormagen": 1,
+                "Hubertusstra\u00dfe 1A, 41541 Dormagen": 1,
+                "Fichtenweg 14, 41540 Dormagen": 1
+            },
+            "view_chart": "bar"
+        },
+        {
+            "column": "wahlraum_barrierefrei",
+            "categories": {
+                "ja": 36,
+                "nein": 26
+            },
+            "view_chart": "pie"
+        },
+        {
+            "column": "geo",
+            "categories": {
+                "51.09325699999999,6.841316": 22,
+                "51.1131232,6.7576637999999996": 3,
+                "51.06370039999999,6.8099858": 3,
+                "51.0768935,6.7802842": 3,
+                "51.0988303,6.8072917": 2,
+                "51.1239267,6.8464737": 2,
+                "51.12762000000001,6.78168": 2,
+                "51.1192788,6.779987900000001": 2,
+                "51.0984132,6.8508398": 2,
+                "51.09837419999999,6.824924999999999": 2,
+                "51.10075,6.820640099999999": 2,
+                "51.0924063,6.8372769": 2,
+                "51.09469420000001,6.7580452": 2,
+                "51.096644,6.8488565": 1,
+                "51.1021296,6.717466399999999": 1,
+                "51.0962103,6.8328304": 1,
+                "51.11473170000001,6.7702048999999995": 1,
+                "51.1151354,6.7703177": 1,
+                "51.0588809,6.8156222": 1,
+                "51.1014873,6.827944899999999": 1,
+                "51.1280897,6.7850217": 1,
+                "51.136281,6.8116182": 1,
+                "51.1391915,6.8200774": 1,
+                "51.12194400000001,6.843920499999999": 1,
+                "51.0935291,6.8352169": 1,
+                "51.1207313,6.848865": 1,
+                "51.1031049,6.807098000000001": 1
+            },
+            "view_chart": "bar"
+        }
+    ]
+}

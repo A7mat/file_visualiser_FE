@@ -1,0 +1,375 @@
+{
+    "default_view_options": {
+        "default_view": "numerical",
+        "default_numerical_view": "line",
+        "default_categorical_view": "bar",
+        "default_axes": {
+            "numerical_chart": {
+                "x": "Jahr",
+                "y": "H\u00f6chste Lufttemperatur"
+            },
+            "categorical_chart": "Jahr"
+        }
+    },
+    "labels": {
+        "all_labels": [
+            "Jahr",
+            "H\u00f6chste Lufttemperatur",
+            "Tiefste Lufttemperatur",
+            "Mittlere Lufttemperatur",
+            "Mittlere relative Luftfeuchtigkeit",
+            "Tage mit Niederschl\ufffdgen",
+            "Gesamtniederschlagsmenge",
+            "Ozonwert (Jahresmittelwert)"
+        ],
+        "numerical_labels": [
+            "Jahr",
+            "H\u00f6chste Lufttemperatur",
+            "Tiefste Lufttemperatur",
+            "Mittlere Lufttemperatur",
+            "Mittlere relative Luftfeuchtigkeit",
+            "Tage mit Niederschl\ufffdgen",
+            "Gesamtniederschlagsmenge",
+            "Ozonwert (Jahresmittelwert)"
+        ],
+        "categorical_labels": [
+            "Jahr"
+        ],
+        "time_labels": [
+            "Jahr"
+        ]
+    },
+    "default_axis": {
+        "x": "Jahr",
+        "y": "Jahr"
+    },
+    "data": [
+        {
+            "Jahr": 1990,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -5,
+            "Mittlere Lufttemperatur": 13,
+            "Mittlere relative Luftfeuchtigkeit": 78,
+            "Tage mit Niederschl\ufffdgen": 197,
+            "Gesamtniederschlagsmenge": 986,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1991,
+            "H\u00f6chste Lufttemperatur": 34,
+            "Tiefste Lufttemperatur": -14,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 176,
+            "Gesamtniederschlagsmenge": 742,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1992,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 80,
+            "Tage mit Niederschl\ufffdgen": 191,
+            "Gesamtniederschlagsmenge": 919,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1993,
+            "H\u00f6chste Lufttemperatur": 29,
+            "Tiefste Lufttemperatur": -13,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 81,
+            "Tage mit Niederschl\ufffdgen": 191,
+            "Gesamtniederschlagsmenge": 957,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1994,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 82,
+            "Tage mit Niederschl\ufffdgen": 195,
+            "Gesamtniederschlagsmenge": 959,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1995,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 195,
+            "Gesamtniederschlagsmenge": 878,
+            "Ozonwert (Jahresmittelwert)": 0
+        },
+        {
+            "Jahr": 1996,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -13,
+            "Mittlere Lufttemperatur": 8,
+            "Mittlere relative Luftfeuchtigkeit": 77,
+            "Tage mit Niederschl\ufffdgen": 178,
+            "Gesamtniederschlagsmenge": 747,
+            "Ozonwert (Jahresmittelwert)": 70
+        },
+        {
+            "Jahr": 1997,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -17,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 78,
+            "Tage mit Niederschl\ufffdgen": 182,
+            "Gesamtniederschlagsmenge": 766,
+            "Ozonwert (Jahresmittelwert)": 31
+        },
+        {
+            "Jahr": 1998,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 77,
+            "Tage mit Niederschl\ufffdgen": 232,
+            "Gesamtniederschlagsmenge": 1113,
+            "Ozonwert (Jahresmittelwert)": 31
+        },
+        {
+            "Jahr": 1999,
+            "H\u00f6chste Lufttemperatur": 31,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 12,
+            "Mittlere relative Luftfeuchtigkeit": 77,
+            "Tage mit Niederschl\ufffdgen": 132,
+            "Gesamtniederschlagsmenge": 654,
+            "Ozonwert (Jahresmittelwert)": 32
+        },
+        {
+            "Jahr": 2000,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 12,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 0,
+            "Gesamtniederschlagsmenge": 590,
+            "Ozonwert (Jahresmittelwert)": 36
+        },
+        {
+            "Jahr": 2001,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 81,
+            "Tage mit Niederschl\ufffdgen": 199,
+            "Gesamtniederschlagsmenge": 690,
+            "Ozonwert (Jahresmittelwert)": 37
+        },
+        {
+            "Jahr": 2002,
+            "H\u00f6chste Lufttemperatur": 37,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 81,
+            "Tage mit Niederschl\ufffdgen": 183,
+            "Gesamtniederschlagsmenge": 879,
+            "Ozonwert (Jahresmittelwert)": 32
+        },
+        {
+            "Jahr": 2003,
+            "H\u00f6chste Lufttemperatur": 37,
+            "Tiefste Lufttemperatur": -13,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 77,
+            "Tage mit Niederschl\ufffdgen": 145,
+            "Gesamtniederschlagsmenge": 744,
+            "Ozonwert (Jahresmittelwert)": 44
+        },
+        {
+            "Jahr": 2004,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 185,
+            "Gesamtniederschlagsmenge": 774,
+            "Ozonwert (Jahresmittelwert)": 34
+        },
+        {
+            "Jahr": 2005,
+            "H\u00f6chste Lufttemperatur": 33,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 80,
+            "Tage mit Niederschl\ufffdgen": 177,
+            "Gesamtniederschlagsmenge": 727,
+            "Ozonwert (Jahresmittelwert)": 34
+        },
+        {
+            "Jahr": 2006,
+            "H\u00f6chste Lufttemperatur": 37,
+            "Tiefste Lufttemperatur": -12,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 76,
+            "Tage mit Niederschl\ufffdgen": 171,
+            "Gesamtniederschlagsmenge": 669,
+            "Ozonwert (Jahresmittelwert)": 40
+        },
+        {
+            "Jahr": 2007,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -8,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 81,
+            "Tage mit Niederschl\ufffdgen": 182,
+            "Gesamtniederschlagsmenge": 873,
+            "Ozonwert (Jahresmittelwert)": 36
+        },
+        {
+            "Jahr": 2008,
+            "H\u00f6chste Lufttemperatur": 34,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 80,
+            "Tage mit Niederschl\ufffdgen": 173,
+            "Gesamtniederschlagsmenge": 643,
+            "Ozonwert (Jahresmittelwert)": 37
+        },
+        {
+            "Jahr": 2009,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -18,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 77,
+            "Tage mit Niederschl\ufffdgen": 175,
+            "Gesamtniederschlagsmenge": 618,
+            "Ozonwert (Jahresmittelwert)": 37
+        },
+        {
+            "Jahr": 2010,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -14,
+            "Mittlere Lufttemperatur": 9,
+            "Mittlere relative Luftfeuchtigkeit": 78,
+            "Tage mit Niederschl\ufffdgen": 170,
+            "Gesamtniederschlagsmenge": 574,
+            "Ozonwert (Jahresmittelwert)": 33
+        },
+        {
+            "Jahr": 2011,
+            "H\u00f6chste Lufttemperatur": 34,
+            "Tiefste Lufttemperatur": -7,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 76,
+            "Tage mit Niederschl\ufffdgen": 162,
+            "Gesamtniederschlagsmenge": 587,
+            "Ozonwert (Jahresmittelwert)": 35
+        },
+        {
+            "Jahr": 2012,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -15,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 76,
+            "Tage mit Niederschl\ufffdgen": 176,
+            "Gesamtniederschlagsmenge": 608,
+            "Ozonwert (Jahresmittelwert)": 37
+        },
+        {
+            "Jahr": 2013,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 10,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 174,
+            "Gesamtniederschlagsmenge": 491,
+            "Ozonwert (Jahresmittelwert)": 38
+        },
+        {
+            "Jahr": 2014,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -5,
+            "Mittlere Lufttemperatur": 12,
+            "Mittlere relative Luftfeuchtigkeit": 80,
+            "Tage mit Niederschl\ufffdgen": 196,
+            "Gesamtniederschlagsmenge": 777,
+            "Ozonwert (Jahresmittelwert)": 36
+        },
+        {
+            "Jahr": 2015,
+            "H\u00f6chste Lufttemperatur": 38,
+            "Tiefste Lufttemperatur": -6,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 76,
+            "Tage mit Niederschl\ufffdgen": 206,
+            "Gesamtniederschlagsmenge": 800,
+            "Ozonwert (Jahresmittelwert)": 42
+        },
+        {
+            "Jahr": 2016,
+            "H\u00f6chste Lufttemperatur": 36,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 76,
+            "Tage mit Niederschl\ufffdgen": 179,
+            "Gesamtniederschlagsmenge": 637,
+            "Ozonwert (Jahresmittelwert)": 38
+        },
+        {
+            "Jahr": 2017,
+            "H\u00f6chste Lufttemperatur": 35,
+            "Tiefste Lufttemperatur": -9,
+            "Mittlere Lufttemperatur": 11,
+            "Mittlere relative Luftfeuchtigkeit": 79,
+            "Tage mit Niederschl\ufffdgen": 195,
+            "Gesamtniederschlagsmenge": 752,
+            "Ozonwert (Jahresmittelwert)": 40
+        },
+        {
+            "Jahr": 2018,
+            "H\u00f6chste Lufttemperatur": 37,
+            "Tiefste Lufttemperatur": -11,
+            "Mittlere Lufttemperatur": 12,
+            "Mittlere relative Luftfeuchtigkeit": 74,
+            "Tage mit Niederschl\ufffdgen": 146,
+            "Gesamtniederschlagsmenge": 530,
+            "Ozonwert (Jahresmittelwert)": 47
+        }
+    ],
+    "categorized": [
+        {
+            "column": "Jahr",
+            "categories": {
+                "1990": 1,
+                "2005": 1,
+                "2017": 1,
+                "2016": 1,
+                "2015": 1,
+                "2014": 1,
+                "2013": 1,
+                "2012": 1,
+                "2011": 1,
+                "2010": 1,
+                "2009": 1,
+                "2008": 1,
+                "2007": 1,
+                "2006": 1,
+                "2004": 1,
+                "1991": 1,
+                "2003": 1,
+                "2002": 1,
+                "2001": 1,
+                "2000": 1,
+                "1999": 1,
+                "1998": 1,
+                "1997": 1,
+                "1996": 1,
+                "1995": 1,
+                "1994": 1,
+                "1993": 1,
+                "1992": 1,
+                "2018": 1
+            },
+            "view_chart": "bar"
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "default_view_options": {
+        "default_view": "numerical",
+        "default_numerical_view": "line",
+        "default_categorical_view": "doughnut",
+        "default_axes": {
+            "numerical_chart": {
+                "x": "Jahr",
+                "y": "Zugang Arbeitslose"
+            },
+            "categorical_chart": "Jahr"
+        }
+    },
+    "labels": {
+        "all_labels": [
+            "Jahr",
+            "Zugang Arbeitslose",
+            "davon nach vorheriger Erwerbst\ufffdtigkeit",
+            "davon nach vorheriger betrieblilcher Ausbildung",
+            "davon ohne vorherige Erwerbst\ufffdtigkeit",
+            "Abgang Arbeitslose",
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit"
+        ],
+        "numerical_labels": [
+            "Jahr",
+            "Zugang Arbeitslose",
+            "davon nach vorheriger Erwerbst\ufffdtigkeit",
+            "davon nach vorheriger betrieblilcher Ausbildung",
+            "davon ohne vorherige Erwerbst\ufffdtigkeit",
+            "Abgang Arbeitslose",
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit"
+        ],
+        "categorical_labels": [
+            "Jahr"
+        ],
+        "time_labels": [
+            "Jahr"
+        ]
+    },
+    "default_axis": {
+        "x": "Jahr",
+        "y": "Jahr"
+    },
+    "data": [
+        {
+            "Jahr": 1990,
+            "Zugang Arbeitslose": 39970,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 19439,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1423,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 19108,
+            "Abgang Arbeitslose": 43687,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1991,
+            "Zugang Arbeitslose": 39884,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 18760,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1521,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 19603,
+            "Abgang Arbeitslose": 41431,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1992,
+            "Zugang Arbeitslose": 41768,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 20424,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1337,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 20007,
+            "Abgang Arbeitslose": 38708,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1993,
+            "Zugang Arbeitslose": 47345,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 0,
+            "davon nach vorheriger betrieblilcher Ausbildung": 0,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 0,
+            "Abgang Arbeitslose": 41520,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1994,
+            "Zugang Arbeitslose": 46519,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23770,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1237,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 21512,
+            "Abgang Arbeitslose": 44913,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1995,
+            "Zugang Arbeitslose": 44340,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21513,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1204,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 21623,
+            "Abgang Arbeitslose": 44183,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1996,
+            "Zugang Arbeitslose": 48292,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21385,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1379,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 25528,
+            "Abgang Arbeitslose": 47067,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1997,
+            "Zugang Arbeitslose": 48078,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 20064,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1442,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 26572,
+            "Abgang Arbeitslose": 46064,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1998,
+            "Zugang Arbeitslose": 48006,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21008,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1823,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 25175,
+            "Abgang Arbeitslose": 50022,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 1999,
+            "Zugang Arbeitslose": 46948,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 20886,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1855,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 24207,
+            "Abgang Arbeitslose": 47557,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 2000,
+            "Zugang Arbeitslose": 45340,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 20407,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1655,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 23278,
+            "Abgang Arbeitslose": 47278,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 2001,
+            "Zugang Arbeitslose": 45745,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21866,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1420,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 22459,
+            "Abgang Arbeitslose": 44994,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 0
+        },
+        {
+            "Jahr": 2002,
+            "Zugang Arbeitslose": 48063,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 22985,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1172,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 23906,
+            "Abgang Arbeitslose": 47601,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 17370
+        },
+        {
+            "Jahr": 2003,
+            "Zugang Arbeitslose": 50942,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 26103,
+            "davon nach vorheriger betrieblilcher Ausbildung": 1535,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 23304,
+            "Abgang Arbeitslose": 48347,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 17518
+        },
+        {
+            "Jahr": 2004,
+            "Zugang Arbeitslose": 56436,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 24478,
+            "davon nach vorheriger betrieblilcher Ausbildung": 7085,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 24861,
+            "Abgang Arbeitslose": 53913,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 17041
+        },
+        {
+            "Jahr": 2005,
+            "Zugang Arbeitslose": 52851,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21979,
+            "davon nach vorheriger betrieblilcher Ausbildung": 7046,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 23826,
+            "Abgang Arbeitslose": 48054,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 18635
+        },
+        {
+            "Jahr": 2006,
+            "Zugang Arbeitslose": 57420,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21782,
+            "davon nach vorheriger betrieblilcher Ausbildung": 10392,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 22938,
+            "Abgang Arbeitslose": 62934,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 21583
+        },
+        {
+            "Jahr": 2007,
+            "Zugang Arbeitslose": 69795,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 21897,
+            "davon nach vorheriger betrieblilcher Ausbildung": 16070,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 31828,
+            "Abgang Arbeitslose": 73492,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 22179
+        },
+        {
+            "Jahr": 2008,
+            "Zugang Arbeitslose": 70326,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 24648,
+            "davon nach vorheriger betrieblilcher Ausbildung": 16238,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 29440,
+            "Abgang Arbeitslose": 73814,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 23752
+        },
+        {
+            "Jahr": 2009,
+            "Zugang Arbeitslose": 80423,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 28232,
+            "davon nach vorheriger betrieblilcher Ausbildung": 21960,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 30231,
+            "Abgang Arbeitslose": 79919,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 22912
+        },
+        {
+            "Jahr": 2010,
+            "Zugang Arbeitslose": 82757,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 26700,
+            "davon nach vorheriger betrieblilcher Ausbildung": 23749,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 32308,
+            "Abgang Arbeitslose": 82671,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 24878
+        },
+        {
+            "Jahr": 2011,
+            "Zugang Arbeitslose": 77182,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 26396,
+            "davon nach vorheriger betrieblilcher Ausbildung": 19156,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 31630,
+            "Abgang Arbeitslose": 77984,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 24846
+        },
+        {
+            "Jahr": 2012,
+            "Zugang Arbeitslose": 73673,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 25136,
+            "davon nach vorheriger betrieblilcher Ausbildung": 16477,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 32060,
+            "Abgang Arbeitslose": 72417,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 21327
+        },
+        {
+            "Jahr": 2013,
+            "Zugang Arbeitslose": 77507,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 24787,
+            "davon nach vorheriger betrieblilcher Ausbildung": 17756,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 34964,
+            "Abgang Arbeitslose": 77346,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 20912
+        },
+        {
+            "Jahr": 2014,
+            "Zugang Arbeitslose": 78752,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 24658,
+            "davon nach vorheriger betrieblilcher Ausbildung": 18746,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 35348,
+            "Abgang Arbeitslose": 79127,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 21623
+        },
+        {
+            "Jahr": 2015,
+            "Zugang Arbeitslose": 77455,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23685,
+            "davon nach vorheriger betrieblilcher Ausbildung": 19341,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 34429,
+            "Abgang Arbeitslose": 78630,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 21557
+        },
+        {
+            "Jahr": 2016,
+            "Zugang Arbeitslose": 86511,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23766,
+            "davon nach vorheriger betrieblilcher Ausbildung": 24995,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 37750,
+            "Abgang Arbeitslose": 88487,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 21657
+        },
+        {
+            "Jahr": 2017,
+            "Zugang Arbeitslose": 85951,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23252,
+            "davon nach vorheriger betrieblilcher Ausbildung": 25989,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 36710,
+            "Abgang Arbeitslose": 88274,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 22181
+        },
+        {
+            "Jahr": 2018,
+            "Zugang Arbeitslose": 80735,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23070,
+            "davon nach vorheriger betrieblilcher Ausbildung": 24605,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 33060,
+            "Abgang Arbeitslose": 81707,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 20789
+        },
+        {
+            "Jahr": 2019,
+            "Zugang Arbeitslose": 79795,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23927,
+            "davon nach vorheriger betrieblilcher Ausbildung": 24411,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 31457,
+            "Abgang Arbeitslose": 79267,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 20384
+        },
+        {
+            "Jahr": 2020,
+            "Zugang Arbeitslose": 64179,
+            "davon nach vorheriger Erwerbst\ufffdtigkeit": 23333,
+            "davon nach vorheriger betrieblilcher Ausbildung": 18361,
+            "davon ohne vorherige Erwerbst\ufffdtigkeit": 22485,
+            "Abgang Arbeitslose": 59552,
+            "Abgang Arbeitslose in Erwerbst\ufffdtigkeit": 18369
+        }
+    ],
+    "categorized": [
+        {
+            "column": "Jahr",
+            "categories": {
+                "1990": 1,
+                "2006": 1,
+                "2019": 1,
+                "2018": 1,
+                "2017": 1,
+                "2016": 1,
+                "2015": 1,
+                "2014": 1,
+                "2013": 1,
+                "2012": 1,
+                "2011": 1,
+                "2010": 1,
+                "2009": 1,
+                "2008": 1,
+                "2007": 1,
+                "2005": 1,
+                "1991": 1,
+                "2004": 1,
+                "2003": 1,
+                "2002": 1,
+                "2001": 1,
+                "2000": 1,
+                "1999": 1,
+                "1998": 1,
+                "1997": 1,
+                "1996": 1,
+                "1995": 1,
+                "1994": 1,
+                "1993": 1,
+                "1992": 1,
+                "2020": 1
+            },
+            "view_chart": "bar"
+        }
+    ]
+}

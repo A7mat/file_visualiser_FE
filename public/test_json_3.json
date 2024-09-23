@@ -1,0 +1,437 @@
+{
+    "default_view_options": {
+        "default_view": "numerical",
+        "default_numerical_view": "line",
+        "default_categorical_view": "bar",
+        "default_axes": {
+            "numerical_chart": {
+                "x": "Jahr",
+                "y": "insgesamt"
+            },
+            "categorical_chart": "Jahr"
+        }
+    },
+    "labels": {
+        "all_labels": [
+            "Jahr",
+            "insgesamt",
+            "insgesamt innerorts",
+            "insgesamt au?erorts",
+            "mit schwerwiegenden Sachschaden zusammen",
+            "mit schwerwiegenden Sachschaden innerorts",
+            "mit schwerwiegenden Sachschaden au?erorts",
+            "mit Personenschaden zusammen",
+            "mit Personenschaden innerorts",
+            "mit Personenschaden au?erorts"
+        ],
+        "numerical_labels": [
+            "Jahr",
+            "insgesamt",
+            "insgesamt innerorts",
+            "insgesamt au?erorts",
+            "mit schwerwiegenden Sachschaden zusammen",
+            "mit schwerwiegenden Sachschaden innerorts",
+            "mit schwerwiegenden Sachschaden au?erorts",
+            "mit Personenschaden zusammen",
+            "mit Personenschaden innerorts",
+            "mit Personenschaden au?erorts"
+        ],
+        "categorical_labels": [
+            "Jahr"
+        ],
+        "time_labels": [
+            "Jahr"
+        ]
+    },
+    "default_axis": {
+        "x": "Jahr",
+        "y": "Jahr"
+    },
+    "data": [
+        {
+            "Jahr": 1990,
+            "insgesamt": 5267,
+            "insgesamt innerorts": 4283,
+            "insgesamt au?erorts": 984,
+            "mit schwerwiegenden Sachschaden zusammen": 2010,
+            "mit schwerwiegenden Sachschaden innerorts": 1523,
+            "mit schwerwiegenden Sachschaden au?erorts": 487,
+            "mit Personenschaden zusammen": 3257,
+            "mit Personenschaden innerorts": 2760,
+            "mit Personenschaden au?erorts": 497
+        },
+        {
+            "Jahr": 1991,
+            "insgesamt": 4347,
+            "insgesamt innerorts": 3507,
+            "insgesamt au?erorts": 840,
+            "mit schwerwiegenden Sachschaden zusammen": 1299,
+            "mit schwerwiegenden Sachschaden innerorts": 922,
+            "mit schwerwiegenden Sachschaden au?erorts": 377,
+            "mit Personenschaden zusammen": 3048,
+            "mit Personenschaden innerorts": 2585,
+            "mit Personenschaden au?erorts": 463
+        },
+        {
+            "Jahr": 1992,
+            "insgesamt": 4604,
+            "insgesamt innerorts": 3706,
+            "insgesamt au?erorts": 898,
+            "mit schwerwiegenden Sachschaden zusammen": 1381,
+            "mit schwerwiegenden Sachschaden innerorts": 984,
+            "mit schwerwiegenden Sachschaden au?erorts": 397,
+            "mit Personenschaden zusammen": 3223,
+            "mit Personenschaden innerorts": 2722,
+            "mit Personenschaden au?erorts": 501
+        },
+        {
+            "Jahr": 1993,
+            "insgesamt": 4577,
+            "insgesamt innerorts": 3694,
+            "insgesamt au?erorts": 883,
+            "mit schwerwiegenden Sachschaden zusammen": 1423,
+            "mit schwerwiegenden Sachschaden innerorts": 1040,
+            "mit schwerwiegenden Sachschaden au?erorts": 383,
+            "mit Personenschaden zusammen": 3154,
+            "mit Personenschaden innerorts": 2654,
+            "mit Personenschaden au?erorts": 500
+        },
+        {
+            "Jahr": 1994,
+            "insgesamt": 4582,
+            "insgesamt innerorts": 3658,
+            "insgesamt au?erorts": 924,
+            "mit schwerwiegenden Sachschaden zusammen": 1469,
+            "mit schwerwiegenden Sachschaden innerorts": 1048,
+            "mit schwerwiegenden Sachschaden au?erorts": 421,
+            "mit Personenschaden zusammen": 3113,
+            "mit Personenschaden innerorts": 2610,
+            "mit Personenschaden au?erorts": 503
+        },
+        {
+            "Jahr": 1995,
+            "insgesamt": 3759,
+            "insgesamt innerorts": 3036,
+            "insgesamt au?erorts": 723,
+            "mit schwerwiegenden Sachschaden zusammen": 1083,
+            "mit schwerwiegenden Sachschaden innerorts": 795,
+            "mit schwerwiegenden Sachschaden au?erorts": 288,
+            "mit Personenschaden zusammen": 2676,
+            "mit Personenschaden innerorts": 2241,
+            "mit Personenschaden au?erorts": 435
+        },
+        {
+            "Jahr": 1996,
+            "insgesamt": 3505,
+            "insgesamt innerorts": 2847,
+            "insgesamt au?erorts": 658,
+            "mit schwerwiegenden Sachschaden zusammen": 892,
+            "mit schwerwiegenden Sachschaden innerorts": 639,
+            "mit schwerwiegenden Sachschaden au?erorts": 253,
+            "mit Personenschaden zusammen": 2613,
+            "mit Personenschaden innerorts": 2208,
+            "mit Personenschaden au?erorts": 405
+        },
+        {
+            "Jahr": 1997,
+            "insgesamt": 3265,
+            "insgesamt innerorts": 2689,
+            "insgesamt au?erorts": 576,
+            "mit schwerwiegenden Sachschaden zusammen": 774,
+            "mit schwerwiegenden Sachschaden innerorts": 583,
+            "mit schwerwiegenden Sachschaden au?erorts": 191,
+            "mit Personenschaden zusammen": 2491,
+            "mit Personenschaden innerorts": 2106,
+            "mit Personenschaden au?erorts": 385
+        },
+        {
+            "Jahr": 1998,
+            "insgesamt": 3385,
+            "insgesamt innerorts": 2781,
+            "insgesamt au?erorts": 604,
+            "mit schwerwiegenden Sachschaden zusammen": 891,
+            "mit schwerwiegenden Sachschaden innerorts": 662,
+            "mit schwerwiegenden Sachschaden au?erorts": 229,
+            "mit Personenschaden zusammen": 2494,
+            "mit Personenschaden innerorts": 2119,
+            "mit Personenschaden au?erorts": 375
+        },
+        {
+            "Jahr": 1999,
+            "insgesamt": 3434,
+            "insgesamt innerorts": 2795,
+            "insgesamt au?erorts": 639,
+            "mit schwerwiegenden Sachschaden zusammen": 864,
+            "mit schwerwiegenden Sachschaden innerorts": 625,
+            "mit schwerwiegenden Sachschaden au?erorts": 239,
+            "mit Personenschaden zusammen": 2570,
+            "mit Personenschaden innerorts": 2170,
+            "mit Personenschaden au?erorts": 400
+        },
+        {
+            "Jahr": 2000,
+            "insgesamt": 3384,
+            "insgesamt innerorts": 2781,
+            "insgesamt au?erorts": 603,
+            "mit schwerwiegenden Sachschaden zusammen": 914,
+            "mit schwerwiegenden Sachschaden innerorts": 693,
+            "mit schwerwiegenden Sachschaden au?erorts": 221,
+            "mit Personenschaden zusammen": 2470,
+            "mit Personenschaden innerorts": 2088,
+            "mit Personenschaden au?erorts": 382
+        },
+        {
+            "Jahr": 2001,
+            "insgesamt": 3330,
+            "insgesamt innerorts": 2639,
+            "insgesamt au?erorts": 691,
+            "mit schwerwiegenden Sachschaden zusammen": 957,
+            "mit schwerwiegenden Sachschaden innerorts": 682,
+            "mit schwerwiegenden Sachschaden au?erorts": 275,
+            "mit Personenschaden zusammen": 2373,
+            "mit Personenschaden innerorts": 1957,
+            "mit Personenschaden au?erorts": 416
+        },
+        {
+            "Jahr": 2002,
+            "insgesamt": 3175,
+            "insgesamt innerorts": 2602,
+            "insgesamt au?erorts": 573,
+            "mit schwerwiegenden Sachschaden zusammen": 999,
+            "mit schwerwiegenden Sachschaden innerorts": 745,
+            "mit schwerwiegenden Sachschaden au?erorts": 254,
+            "mit Personenschaden zusammen": 2176,
+            "mit Personenschaden innerorts": 1857,
+            "mit Personenschaden au?erorts": 319
+        },
+        {
+            "Jahr": 2003,
+            "insgesamt": 3257,
+            "insgesamt innerorts": 2684,
+            "insgesamt au?erorts": 573,
+            "mit schwerwiegenden Sachschaden zusammen": 893,
+            "mit schwerwiegenden Sachschaden innerorts": 683,
+            "mit schwerwiegenden Sachschaden au?erorts": 210,
+            "mit Personenschaden zusammen": 2364,
+            "mit Personenschaden innerorts": 2001,
+            "mit Personenschaden au?erorts": 363
+        },
+        {
+            "Jahr": 2004,
+            "insgesamt": 3216,
+            "insgesamt innerorts": 2758,
+            "insgesamt au?erorts": 458,
+            "mit schwerwiegenden Sachschaden zusammen": 958,
+            "mit schwerwiegenden Sachschaden innerorts": 764,
+            "mit schwerwiegenden Sachschaden au?erorts": 194,
+            "mit Personenschaden zusammen": 2258,
+            "mit Personenschaden innerorts": 1994,
+            "mit Personenschaden au?erorts": 264
+        },
+        {
+            "Jahr": 2005,
+            "insgesamt": 3157,
+            "insgesamt innerorts": 2691,
+            "insgesamt au?erorts": 466,
+            "mit schwerwiegenden Sachschaden zusammen": 924,
+            "mit schwerwiegenden Sachschaden innerorts": 744,
+            "mit schwerwiegenden Sachschaden au?erorts": 180,
+            "mit Personenschaden zusammen": 2233,
+            "mit Personenschaden innerorts": 1947,
+            "mit Personenschaden au?erorts": 286
+        },
+        {
+            "Jahr": 2006,
+            "insgesamt": 2966,
+            "insgesamt innerorts": 2527,
+            "insgesamt au?erorts": 439,
+            "mit schwerwiegenden Sachschaden zusammen": 889,
+            "mit schwerwiegenden Sachschaden innerorts": 701,
+            "mit schwerwiegenden Sachschaden au?erorts": 188,
+            "mit Personenschaden zusammen": 2077,
+            "mit Personenschaden innerorts": 1826,
+            "mit Personenschaden au?erorts": 251
+        },
+        {
+            "Jahr": 2007,
+            "insgesamt": 3201,
+            "insgesamt innerorts": 2756,
+            "insgesamt au?erorts": 445,
+            "mit schwerwiegenden Sachschaden zusammen": 905,
+            "mit schwerwiegenden Sachschaden innerorts": 721,
+            "mit schwerwiegenden Sachschaden au?erorts": 184,
+            "mit Personenschaden zusammen": 2296,
+            "mit Personenschaden innerorts": 2035,
+            "mit Personenschaden au?erorts": 261
+        },
+        {
+            "Jahr": 2008,
+            "insgesamt": 3073,
+            "insgesamt innerorts": 2654,
+            "insgesamt au?erorts": 419,
+            "mit schwerwiegenden Sachschaden zusammen": 880,
+            "mit schwerwiegenden Sachschaden innerorts": 696,
+            "mit schwerwiegenden Sachschaden au?erorts": 184,
+            "mit Personenschaden zusammen": 2193,
+            "mit Personenschaden innerorts": 1958,
+            "mit Personenschaden au?erorts": 235
+        },
+        {
+            "Jahr": 2009,
+            "insgesamt": 2923,
+            "insgesamt innerorts": 2475,
+            "insgesamt au?erorts": 448,
+            "mit schwerwiegenden Sachschaden zusammen": 844,
+            "mit schwerwiegenden Sachschaden innerorts": 637,
+            "mit schwerwiegenden Sachschaden au?erorts": 207,
+            "mit Personenschaden zusammen": 2079,
+            "mit Personenschaden innerorts": 1838,
+            "mit Personenschaden au?erorts": 241
+        },
+        {
+            "Jahr": 2010,
+            "insgesamt": 2552,
+            "insgesamt innerorts": 2169,
+            "insgesamt au?erorts": 383,
+            "mit schwerwiegenden Sachschaden zusammen": 761,
+            "mit schwerwiegenden Sachschaden innerorts": 574,
+            "mit schwerwiegenden Sachschaden au?erorts": 187,
+            "mit Personenschaden zusammen": 1791,
+            "mit Personenschaden innerorts": 1595,
+            "mit Personenschaden au?erorts": 196
+        },
+        {
+            "Jahr": 2011,
+            "insgesamt": 2733,
+            "insgesamt innerorts": 2399,
+            "insgesamt au?erorts": 334,
+            "mit schwerwiegenden Sachschaden zusammen": 739,
+            "mit schwerwiegenden Sachschaden innerorts": 608,
+            "mit schwerwiegenden Sachschaden au?erorts": 131,
+            "mit Personenschaden zusammen": 1994,
+            "mit Personenschaden innerorts": 1791,
+            "mit Personenschaden au?erorts": 203
+        },
+        {
+            "Jahr": 2012,
+            "insgesamt": 2601,
+            "insgesamt innerorts": 2270,
+            "insgesamt au?erorts": 331,
+            "mit schwerwiegenden Sachschaden zusammen": 714,
+            "mit schwerwiegenden Sachschaden innerorts": 595,
+            "mit schwerwiegenden Sachschaden au?erorts": 119,
+            "mit Personenschaden zusammen": 1887,
+            "mit Personenschaden innerorts": 1675,
+            "mit Personenschaden au?erorts": 212
+        },
+        {
+            "Jahr": 2013,
+            "insgesamt": 2414,
+            "insgesamt innerorts": 2079,
+            "insgesamt au?erorts": 335,
+            "mit schwerwiegenden Sachschaden zusammen": 685,
+            "mit schwerwiegenden Sachschaden innerorts": 570,
+            "mit schwerwiegenden Sachschaden au?erorts": 115,
+            "mit Personenschaden zusammen": 1729,
+            "mit Personenschaden innerorts": 1509,
+            "mit Personenschaden au?erorts": 220
+        },
+        {
+            "Jahr": 2014,
+            "insgesamt": 2261,
+            "insgesamt innerorts": 2004,
+            "insgesamt au?erorts": 257,
+            "mit schwerwiegenden Sachschaden zusammen": 529,
+            "mit schwerwiegenden Sachschaden innerorts": 465,
+            "mit schwerwiegenden Sachschaden au?erorts": 64,
+            "mit Personenschaden zusammen": 1732,
+            "mit Personenschaden innerorts": 1539,
+            "mit Personenschaden au?erorts": 193
+        },
+        {
+            "Jahr": 2015,
+            "insgesamt": 2239,
+            "insgesamt innerorts": 1938,
+            "insgesamt au?erorts": 301,
+            "mit schwerwiegenden Sachschaden zusammen": 452,
+            "mit schwerwiegenden Sachschaden innerorts": 366,
+            "mit schwerwiegenden Sachschaden au?erorts": 86,
+            "mit Personenschaden zusammen": 1787,
+            "mit Personenschaden innerorts": 1572,
+            "mit Personenschaden au?erorts": 215
+        },
+        {
+            "Jahr": 2016,
+            "insgesamt": 2455,
+            "insgesamt innerorts": 2146,
+            "insgesamt au?erorts": 309,
+            "mit schwerwiegenden Sachschaden zusammen": 482,
+            "mit schwerwiegenden Sachschaden innerorts": 390,
+            "mit schwerwiegenden Sachschaden au?erorts": 92,
+            "mit Personenschaden zusammen": 1973,
+            "mit Personenschaden innerorts": 1756,
+            "mit Personenschaden au?erorts": 217
+        },
+        {
+            "Jahr": 2017,
+            "insgesamt": 2343,
+            "insgesamt innerorts": 2053,
+            "insgesamt au?erorts": 290,
+            "mit schwerwiegenden Sachschaden zusammen": 436,
+            "mit schwerwiegenden Sachschaden innerorts": 367,
+            "mit schwerwiegenden Sachschaden au?erorts": 69,
+            "mit Personenschaden zusammen": 1907,
+            "mit Personenschaden innerorts": 1686,
+            "mit Personenschaden au?erorts": 221
+        },
+        {
+            "Jahr": 2018,
+            "insgesamt": 2382,
+            "insgesamt innerorts": 2053,
+            "insgesamt au?erorts": 329,
+            "mit schwerwiegenden Sachschaden zusammen": 369,
+            "mit schwerwiegenden Sachschaden innerorts": 306,
+            "mit schwerwiegenden Sachschaden au?erorts": 63,
+            "mit Personenschaden zusammen": 2013,
+            "mit Personenschaden innerorts": 1747,
+            "mit Personenschaden au?erorts": 266
+        }
+    ],
+    "categorized": [
+        {
+            "column": "Jahr",
+            "categories": {
+                "1990": 1,
+                "2005": 1,
+                "2017": 1,
+                "2016": 1,
+                "2015": 1,
+                "2014": 1,
+                "2013": 1,
+                "2012": 1,
+                "2011": 1,
+                "2010": 1,
+                "2009": 1,
+                "2008": 1,
+                "2007": 1,
+                "2006": 1,
+                "2004": 1,
+                "1991": 1,
+                "2003": 1,
+                "2002": 1,
+                "2001": 1,
+                "2000": 1,
+                "1999": 1,
+                "1998": 1,
+                "1997": 1,
+                "1996": 1,
+                "1995": 1,
+                "1994": 1,
+                "1993": 1,
+                "1992": 1,
+                "2018": 1
+            },
+            "view_chart": "bar"
+        }
+    ]
+}
