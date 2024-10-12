@@ -1,116 +1,120 @@
 <template>
-  <div class="dsd-item dv-preview-container container my-5">
-    <h2
-      class="mb-lg-4 mt-lg-4 text-center"
-      data-toggle="tooltip"
-      data-placement="top"
-      data-cy="dataset-distribution-preview"
-    >
-    Data Visualiser - Work in Progress
-    </h2>
-    <!-- Card -->
-    <div v-if="this.jsonData" class="dv-card card text-center">
-      <!-- Card Header (Navigation bar) -->
-      <dv-nav-bar @showTab="showTab" :activeTab="activeTab"></dv-nav-bar>
-
-      <!-- Card Body -->
-      <div class="card-body">
-        {{ addData() }}
-        <!-- Tab for Numerical Charts -->
-        <dv-numerical-view
-          v-if="activeTab == 'numerical'"
-          role="tabpanel"
-          :showNumTabContent="showNumTabContent"
-          :categoricalLabels="categoricalLabels"
-          :numericalLabels="numericalLabels"
-          :xPicked="xPicked"
-          :yPicked="yPicked"
-          :viewType="viewType"
-          :viewTypes="viewOptions.map((e) => e.label)"
-          :chartData="dataCollection"
-          :chartOptions="options"
-          @updateXPicked="updateXPicked"
-          @updateYPicked="updateYPicked"
-          @removeChart="removeChart"
-        >
-        </dv-numerical-view>
-        <!-- Tab for Categorical Charts -->
-        <dv-categorical-view
-          v-else-if="activeTab == 'categorical'"
-          role="tabpanel"
-          :showCatTabContent="showCatTabContent"
-          :labels="categoricalLabels"
-          :yPicked="catYPicked"
-          :viewType="catViewType"
-          :viewTypes="catViewOptions.map((e) => e.label)"
-          :chartData="catDataCollection"
-          :chartOptions="options"
-          @updateYPicked="updateCatYPicked"
-          @removeChart="removeChart"
-        >
-        </dv-categorical-view>
-        <!-- Tab for Table View -->
-        <dv-tabular-view
-          v-else-if="activeTab == 'table-view'"
-          role="tabpanel"
-          id="dv-table-view"
-          :columnTitles="allLabels"
-          :rowData="dataRows"
-        >
-        </dv-tabular-view>
-      </div>
-    </div>
-
-    <!-- Records range bar -->
-    <div class="dv-records-range-container text-right">
-      <small class="dv-records-range-container-record-number mr-1"
-        >{{ this.dataRows.length }} Records</small
+  <Layout>
+    <div class="dv-preview-container container my-5">
+      <h2
+        class="mb-lg-4 mt-lg-4 text-center header-visualisation"
+        data-toggle="tooltip"
+        data-placement="top"
+        data-cy="dataset-distribution-preview"
       >
-      <small v-if="activeTab === 'numerical'">
-        <label for="from">show records from</label>
-        <input
-          @change="updateRange"
-          type="number"
-          id="from"
-          v-model.number="fromIndex"
-          min="1"
-        />
-        <label for="to">-</label>
-        <input
-          @change="updateRange"
-          type="number"
-          id="to"
-          v-model.number="toIndex"
-          :min="fromIndex"
-          :max="this.dataRows.length"
-        />
-      </small>
-    </div>
-
-    <br />
-
-    <!-- Feedback Tool -->
-    <!-- <dv-feedback-tool
-            :allChartOptions="allChartOptions" 
-            :allLabels="allLabels" 
+      Data Visualiser - Work in Progress
+      </h2>
+      <!-- Card -->
+      <div v-if="this.jsonData" class="dv-card card text-center">
+        <!-- Card Header (Navigation bar) -->
+        <dv-nav-bar @showTab="showTab" :activeTab="activeTab"></dv-nav-bar>
+  
+        <!-- Card Body -->
+        <div class="card-body">
+          {{ addData() }}
+          <!-- Tab for Numerical Charts -->
+          <dv-numerical-view
+            v-if="activeTab == 'numerical'"
+            role="tabpanel"
+            :showNumTabContent="showNumTabContent"
             :categoricalLabels="categoricalLabels"
-            :defaultSuggestedChartType="defaultSuggestedChartType"
-            :defaultSuggestedX="defaultSuggestedX"
-            :defaultSuggestedY="defaultSuggestedY"
-        /> -->
-  </div>
+            :numericalLabels="numericalLabels"
+            :xPicked="xPicked"
+            :yPicked="yPicked"
+            :viewType="viewType"
+            :viewTypes="viewOptions.map((e) => e.label)"
+            :chartData="dataCollection"
+            :chartOptions="options"
+            @updateXPicked="updateXPicked"
+            @updateYPicked="updateYPicked"
+            @removeChart="removeChart"
+          >
+          </dv-numerical-view>
+          <!-- Tab for Categorical Charts -->
+          <dv-categorical-view
+            v-else-if="activeTab == 'categorical'"
+            role="tabpanel"
+            :showCatTabContent="showCatTabContent"
+            :labels="categoricalLabels"
+            :yPicked="catYPicked"
+            :viewType="catViewType"
+            :viewTypes="catViewOptions.map((e) => e.label)"
+            :chartData="catDataCollection"
+            :chartOptions="options"
+            @updateYPicked="updateCatYPicked"
+            @removeChart="removeChart"
+          >
+          </dv-categorical-view>
+          <!-- Tab for Table View -->
+          <dv-tabular-view
+            v-else-if="activeTab == 'table-view'"
+            role="tabpanel"
+            id="dv-table-view"
+            :columnTitles="allLabels"
+            :rowData="dataRows"
+          >
+          </dv-tabular-view>
+        </div>
+      </div>
+  
+      <!-- Records range bar -->
+      <div class="dv-records-range-container text-right">
+        <small class="dv-records-range-container-record-number mr-1"
+          >{{ this.dataRows.length }} Records</small
+        >
+        <small v-if="activeTab === 'numerical'">
+          <label for="from">show records from</label>
+          <input
+            @change="updateRange"
+            type="number"
+            id="from"
+            v-model.number="fromIndex"
+            min="1"
+          />
+          <label for="to">-</label>
+          <input
+            @change="updateRange"
+            type="number"
+            id="to"
+            v-model.number="toIndex"
+            :min="fromIndex"
+            :max="this.dataRows.length"
+          />
+        </small>
+      </div>
+  
+      <br />
+  
+      <!-- Feedback Tool -->
+      <!-- <dv-feedback-tool
+              :allChartOptions="allChartOptions" 
+              :allLabels="allLabels" 
+              :categoricalLabels="categoricalLabels"
+              :defaultSuggestedChartType="defaultSuggestedChartType"
+              :defaultSuggestedX="defaultSuggestedX"
+              :defaultSuggestedY="defaultSuggestedY"
+          /> -->
+    </div>
+  </Layout>
 </template>
 
 <script>
-import DvNavBar from "./previewComponants/DvNavBar.vue";
-import DvNumericalView from "./previewComponants/DvNumericalView.vue";
-import DvCategoricalView from "./previewComponants/DvCategoricalView.vue";
-import DvTabularView from "./previewComponants/DvTabularView.vue";
+import Layout from "@/components/LayoutCustom.vue";
+import DvNavBar from "../components/previewComponants/DvNavBar.vue";
+import DvNumericalView from "../components/previewComponants/DvNumericalView.vue";
+import DvCategoricalView from "../components/previewComponants/DvCategoricalView.vue";
+import DvTabularView from "../components/previewComponants/DvTabularView.vue";
 // import DvFeedbackTool from './previewComponants/DvFeedbackTool.vue';
 
 export default {
   name: "DistributionVisualisation",
   components: {
+    Layout,
     DvNavBar,
     DvNumericalView,
     DvCategoricalView,
@@ -413,14 +417,12 @@ $input-border: #ced4da;
 $small-text-size: 0.875rem;
 
 /* Container Styles */
-.dsd-item {
-  &.dv-preview-container {
-    padding: 20px;
-    background-color: $background-light;
-    border-radius: 10px;
-    box-shadow: $box-shadow;
-    margin-bottom: 30px;
-  }
+.dv-preview-container {
+  padding: 20px;
+  background-color: $background-light;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  margin-bottom: 30px;
 }
 
 /* Header Styles */
@@ -474,7 +476,10 @@ h2 {
     text-align: center;
     width: 50px;
   }
-
+  
+  .header-visualisation{
+    background-color: red;
+  }
   .dv-records-range-container-record-number {
     background-color: #f0efed;
     border-radius: 5px;
@@ -529,10 +534,8 @@ h2 {
         max-height: 650px;
     }
 @media (max-width: 768px) {
-  .dsd-item {
-    &.dv-preview-container {
-      padding: 15px;
-    }
+  .dv-preview-container {
+    padding: 15px;
   }
 
   h2 {
