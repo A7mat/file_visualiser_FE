@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-
-    <Preview />
+    <RouterView />
   </div>
 </template>
 
 <script>
-import Preview from './components/Preview.vue'
+// import Preview from './pages/FilePreview.vue'
+// import FileBrowser from './pages/FileBrowser.vue'
+import { RouterView } from 'vue-router';
 
 export default {
   name: 'App',
   components: {
-    Preview
+    // Preview,
+    // FileBrowser,
+    RouterView
   }
 }
 </script>
