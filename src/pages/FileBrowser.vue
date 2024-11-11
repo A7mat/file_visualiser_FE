@@ -1,7 +1,8 @@
 <template>
 	<Layout>
-		<div class="file-browser container my-5">
-			<div class="list-group">
+		<div class="file-browser container my-5 text-left">
+			<h2>Available Files:</h2>
+			<div class="list-group text-center">
 				<FileOption v-for="(file, index) in files" :fileID="file.href" :key="index">{{ file.name }}</FileOption>
 			</div>
 		</div>
@@ -11,10 +12,14 @@
 <script setup>
 import Layout from "@/components/LayoutCustom.vue";
 import FileOption from "@/components/FileOption.vue";
+import { useStore } from "@/stores/store.js"
+import { ref, onMounted } from "vue";
 
-const files = [
-	{name: 'File 1', href: 'file-preview'},
-	{name: 'File 2', href: 'file-preview'},
-	{name: 'File 3', href: 'file-preview'}
-	]
+const store = useStore()
+const files = ref({})
+
+onMounted(() => {
+	store.getFileNames()
+	files.value = store.fileNames
+})
 </script>

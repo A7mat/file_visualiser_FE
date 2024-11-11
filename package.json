@@ -18,6 +18,7 @@
     "chart.js": "^4.4.3",
     "core-js": "^3.8.3",
     "material-icons": "^1.13.12",
+    "pinia": "^2.2.6",
     "popper.js": "^1.16.1",
     "vue": "^3.5.8",
     "vue-chartjs": "^5.3.1",

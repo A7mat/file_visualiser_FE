@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { createPinia } from 'pinia'
 import App from './App.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap'
@@ -10,7 +11,9 @@ import router from './router';
 
 // Create the app instance
 const app = createApp(App)
+const pinia = createPinia()
 app.use(router)
+app.use(pinia)
 
 app.component('font-awesome-icon', FontAwesomeIcon);
 

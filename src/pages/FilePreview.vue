@@ -7,7 +7,7 @@
         data-placement="top"
         data-cy="dataset-distribution-preview"
       >
-      Data Visualiser - Work in Progress
+      Data Visualiser
       </h2>
       <!-- Card -->
       <div v-if="this.jsonData" class="dv-card card text-center">
